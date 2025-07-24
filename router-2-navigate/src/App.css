@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.App {
+  width: 100%;
+  max-width: 600px;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Login Form Styles */
+.login-form { text-align: center; }
+.form-group { margin-bottom: 1rem; text-align: left; }
+.form-group label { display: block; margin-bottom: 0.5rem; }
+.form-group input { width: 100%; padding: 0.5rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+.error-message { color: red; margin-bottom: 1rem; }
+
+/* Employee Page Styles */
+.employee-page, .detail-page { text-align: center; }
+table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
+thead { background-color: #333; color: white; }
+th, td { padding: 0.75rem; border: 1px solid #ddd; text-align: left; }
+tbody tr:nth-child(even) { background-color: #f9f9f9; }
+.btn-detail { background-color: #17a2b8; color: white; border: none; padding: 0.5rem 1rem; border-radius: 4px; cursor: pointer; }
+.btn-detail:hover { background-color: #138496; }
+
+/* Detail Page Styles */
+.detail-card { border: 1px solid #eee; padding: 1.5rem; margin: 1.5rem 0; text-align: left; border-radius: 5px; background: #fafafa; }
+.detail-card p { margin: 0.5rem 0; font-size: 1.1rem; }
+
+/* General Button/Link Styles */
+button { padding: 0.7rem; font-size: 1rem; cursor: pointer; border-radius: 4px; border: none; }
+button[type="submit"] { width: 100%; background-color: #007bff; color: white; }
+button[type="submit"]:hover { background-color: #0056b3; }
+.logout-button, .back-button { display: inline-block; margin-top: 1.5rem; padding: 0.7rem 1.5rem; color: white; text-decoration: none; border-radius: 4px; }
+.logout-button { background-color: #dc3545; }
+.logout-button:hover { background-color: #c82333; }
+.back-button { background-color: #6c757d; }
+.back-button:hover { background-color: #5a6268; }
